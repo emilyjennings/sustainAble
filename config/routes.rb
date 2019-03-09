@@ -1,3 +1,23 @@
 Rails.application.routes.draw do
+  get 'ideas/index'
+  get 'ideas/new'
+  get 'ideas/create'
+  get 'ideas/edit'
+  get 'ideas/update'
+  get 'ideas/destroy'
+  get 'ideas/show'
+  get 'user/index'
+  get 'user/new'
+  get 'user/create'
+  get 'user/edit'
+  get 'user/update'
+  get 'user/destroy'
+  get 'user/show'
+  get 'locations/index'
+  get 'locations/new'
+  get 'locations/create'
+  get 'locations/edit'
+  get 'locations/update'
+  get 'locations/destroy'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
